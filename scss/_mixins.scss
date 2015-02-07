@@ -1,5 +1,5 @@
 // Mixins
-@keyframes shrink-bounce{
+@mixin shrink-bounce{
   0%{
     transform: scale(1);
   }
@@ -10,7 +10,8 @@
     transform: scale(1);    
   }
 }
-@keyframes checkbox-check{
+
+@mixin checkbox-check{
   0%{
     width: 0;
     height: 0;
