@@ -30,3 +30,8 @@
     transform: translate3d(0,-.5em,0) rotate(45deg);
   }
 }
+
+@mixin color {
+  color: #9E9E9E;
+}
+
